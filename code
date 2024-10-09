@@ -1,0 +1,20 @@
+{
+  "name": "MyWeatherSkill",
+  "description": "Retrieves weather information for a specified location.",
+  "version": "1.2.0",
+  "author": "WeatherData Inc.",
+  "endpoint": "https://api.weatherdata.com/weather",
+  "capabilities": [
+    {
+      "name": "GetCurrentWeather",
+      "description": "Gets the current weather for a given location."
+    },
+    {
+      "name": "GetForecast",
+      "description": "Gets the weather forecast for a given location."
+    }
+  ],
+  "configuration": {
+    "apiKey": "your_api_key"
+  }
+}
